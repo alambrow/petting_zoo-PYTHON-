@@ -31,6 +31,6 @@ slytherz = Snake("slytherz", "rattler", "evening", "people")
 mr_T = Toad("Mr T", "warty", "evening", "flies")
 
 print(f"{b_fly.name}, the {b_fly.species}, is available to pet during the {b_fly.shift} shift.")
-print(b_fly.feed())
+print(b_fly)
 
-print(mr_T.feed())
+print(mr_T)
