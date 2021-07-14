@@ -30,7 +30,6 @@ hry_bear = Sheep("Hairy Bear", "Brown sheep", "evening", "grass")
 slytherz = Snake("slytherz", "rattler", "evening", "people")
 mr_T = Toad("Mr T", "warty", "evening", "flies")
 
-print(f"{b_fly.name}, the {b_fly.species}, is available to pet during the {b_fly.shift} shift.")
-print(b_fly)
-
-print(mr_T)
+# print(f"{b_fly.name}, the {b_fly.species}, is available to pet during the {b_fly.shift} shift.")
+# print(b_fly)
+# print(mr_T)
