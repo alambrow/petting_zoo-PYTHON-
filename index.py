@@ -14,7 +14,6 @@ critter_cove.add_animal(mr_T)
 critter_cove.add_animal(al)
 critter_cove.add_animal(piscus)
 
-
 for animal in varmint_village.animals:
     print(f'You can find {animal.name}, the {animal.species} (chip_num: {animal.chip_number}), in {varmint_village.attraction_name}')
 
