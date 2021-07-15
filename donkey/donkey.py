@@ -1,10 +1,9 @@
 from animals import Animal
+from movements import Walking
 
-class Donkey(Animal):
+class Donkey(Animal, Walking):
     
     def __init__(self, name, species, shift, food, chip_num):
-        super().__init__(name, species, food, chip_num)
+        Animal.__init__(self, name, species, food, chip_num)
+        Walking.__init__(self)
         self.shift = shift
-        self.swimming = False
-        self.slithering = False
-        self.walking = True

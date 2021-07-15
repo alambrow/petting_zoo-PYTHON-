@@ -1,10 +1,9 @@
+from movements import Swimming
 from animals import Animal
 
-class Tadpole(Animal):
+class Tadpole(Animal, Swimming):
 
     def __init__(self, name, species, shift, food, chip_num):
-        super().__init__(name, species, food, chip_num)
+        Animal.__init__(self, name, species, food, chip_num)
         self.shift = shift
-        self.swimming = True
-        self.slithering = False
-        self.walking = False
+        Swimming.__init__(self)
