@@ -14,11 +14,12 @@ critter_cove.add_animal(mr_T)
 critter_cove.add_animal(al)
 critter_cove.add_animal(piscus)
 
+
 for animal in varmint_village.animals:
-    print(f'You can find {animal.name} the {animal.species} in {varmint_village.attraction_name}')
+    print(f'You can find {animal.name}, the {animal.species} (chip_num: {animal.chip_number}), in {varmint_village.attraction_name}')
 
 for animal in slither_inn.animals:
-    print(f'You can find {animal.name} the {animal.species} in {slither_inn.attraction_name}')
+    print(f'You can find {animal.name}, the {animal.species} (chip_num: {animal.chip_number}), in {slither_inn.attraction_name}')
 
 for animal in critter_cove.animals:
-    print(f'You can find {animal.name} the {animal.species} in {critter_cove.attraction_name}')
+    print(f'You can find {animal.name}, the {animal.species} (chip_num: {animal.chip_number}), in {critter_cove.attraction_name}')
